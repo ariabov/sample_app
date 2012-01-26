@@ -1,17 +1,20 @@
-1327540677
+1327558923
 Application	C:/RoRApps/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/RoRApps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/RoRApps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+GET 'about'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'about'" do
 GET 'contact'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
 GET 'home'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
 PagesController	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	C:/RoRApps/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	C:/RoRApps/sample_app/config/application.rb	module SampleApp
-concats two strings with spaces	C:/RoRApps/sample_app/spec/helpers/pages_helper_spec.rb	it "concats two strings with spaces" do
+about	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def about
 contact	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def contact
 home	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def home
-pages/contact.html.erb	C:/RoRApps/sample_app/spec/views/pages/contact.html.erb_spec.rb	describe "pages/contact.html.erb" do
-pages/home.html.erb	C:/RoRApps/sample_app/spec/views/pages/home.html.erb_spec.rb	describe "pages/home.html.erb" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
-string concat	C:/RoRApps/sample_app/spec/helpers/pages_helper_spec.rb	describe "string concat" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+should have a non-blank body	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have a non-blank body" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do

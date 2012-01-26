@@ -1,0 +1,11 @@
+--- 
+cursor_positions: 
+  - :path: public/index.html
+    :cursor_offset: 0
+    :timestamp: 2012-01-25 16:14:03.576000 -08:00
+    :selection_offset: 15
+    :block_selection_mode: false
+  - :path: public/hello.html
+    :cursor_offset: 166
+    :timestamp: 2012-01-25 17:05:35.569000 -08:00
+files_to_retain: 0

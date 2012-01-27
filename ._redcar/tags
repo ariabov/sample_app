@@ -1,4 +1,4 @@
-1327558923
+1327683053
 Application	C:/RoRApps/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/RoRApps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/RoRApps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -18,3 +18,4 @@ should have a non-blank body	C:/RoRApps/sample_app/spec/controllers/pages_contro
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+title	C:/RoRApps/sample_app/app/helpers/application_helper.rb	  def title

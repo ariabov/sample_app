@@ -6,17 +6,6 @@ cursor_positions:
   - :path: Rakefile
     :cursor_offset: 269
     :timestamp: 2012-01-25 17:25:23.233000 -08:00
-  - :path: app/views/pages/contact.html.erb
-    :cursor_offset: 74
-    :timestamp: 2012-01-25 17:14:14.400000 -08:00
-    :selection_offset: 0
-    :block_selection_mode: false
-  - :path: app/controllers/pages_controller.rb
-    :cursor_offset: 111
-    :timestamp: 2012-01-25 17:55:58.017000 -08:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 0
-    :timestamp: 2012-01-25 16:14:01.215000 -08:00
   - :path: public/index.html
     :cursor_offset: 255
     :timestamp: 2012-01-25 16:14:03.576000 -08:00
@@ -26,4 +15,19 @@ cursor_positions:
   - :path: spec/controllers/pages_controller_spec.rb
     :cursor_offset: 138
     :timestamp: 2012-01-25 22:15:51.258000 -08:00
+  - :path: app/views/pages/home.html.erb
+    :cursor_offset: 28
+    :timestamp: 2012-01-25 22:03:45.017000 -08:00
+  - :path: app/views/pages/about.html.erb
+    :cursor_offset: 126
+    :timestamp: 2012-01-25 22:03:55.281000 -08:00
+  - :path: app/views/pages/contact.html.erb
+    :cursor_offset: 130
+    :timestamp: 2012-01-25 22:03:58.097000 -08:00
+  - :path: app/controllers/pages_controller.rb
+    :cursor_offset: 123
+    :timestamp: 2012-01-25 22:00:50.672000 -08:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 149
+    :timestamp: 2012-01-25 22:18:50.129000 -08:00
 files_to_retain: 0

@@ -30,4 +30,10 @@ cursor_positions:
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 149
     :timestamp: 2012-01-25 22:18:50.129000 -08:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 181
+    :timestamp: 2012-01-27 08:41:26.160000 -08:00
+  - :path: user.rb
+    :cursor_offset: 177
+    :timestamp: 2012-01-27 16:49:09.787000 -08:00
 files_to_retain: 0

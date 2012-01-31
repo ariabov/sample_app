@@ -5,3 +5,7 @@ open_files:
   - app/views/pages/contact.html.erb
   - app/controllers/pages_controller.rb
   - app/views/layouts/application.html.erb
+  - .gitignore
+  - Gemfile
+  - app/helpers/application_helper.rb
+  - spec/controllers/pages_controller_spec.rb

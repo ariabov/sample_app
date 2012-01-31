@@ -1,4 +1,4 @@
-1327728777
+1327993151
 Application	C:/RoRApps/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/RoRApps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/RoRApps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -8,14 +8,9 @@ GET 'home'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	descr
 PagesController	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	C:/RoRApps/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	C:/RoRApps/sample_app/config/application.rb	module SampleApp
-User	C:/RoRApps/sample_app/user.rb	class User
 about	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def about
 contact	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def contact
-email	C:/RoRApps/sample_app/user.rb	  attr_accessor :name, :email
-fomatted_email	C:/RoRApps/sample_app/user.rb	  def fomatted_email
 home	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def home
-initialize	C:/RoRApps/sample_app/user.rb	  def initialize(attributes = {})
-name	C:/RoRApps/sample_app/user.rb	  attr_accessor :name, :email
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do

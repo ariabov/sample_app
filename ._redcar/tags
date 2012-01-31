@@ -1,4 +1,4 @@
-1327993151
+1327993707
 Application	C:/RoRApps/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/RoRApps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/RoRApps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper

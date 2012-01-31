@@ -44,4 +44,13 @@ cursor_positions:
   - :path: app/views/pages/home.html.erb
     :cursor_offset: 24
     :timestamp: 2012-01-25 22:03:45.017000 -08:00
+  - :path: app/views/layouts/_stylesheets.html.erb
+    :cursor_offset: 315
+    :timestamp: 2012-01-30 23:34:00.296000 -08:00
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 268
+    :timestamp: 2012-01-30 23:37:20.618000 -08:00
+  - :path: app/assets/stylesheets/custom.css
+    :cursor_offset: 1156
+    :timestamp: 2012-01-30 23:30:53.322000 -08:00
 files_to_retain: 0

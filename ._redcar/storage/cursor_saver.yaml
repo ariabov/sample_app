@@ -9,15 +9,9 @@ cursor_positions:
   - :path: public/index.html
     :cursor_offset: 255
     :timestamp: 2012-01-25 16:14:03.576000 -08:00
-  - :path: config/routes.rb
-    :cursor_offset: 101
-    :timestamp: 2012-01-25 17:50:24.585000 -08:00
   - :path: user.rb
     :cursor_offset: 177
     :timestamp: 2012-01-27 16:49:09.787000 -08:00
-  - :path: app/controllers/pages_controller.rb
-    :cursor_offset: 45
-    :timestamp: 2012-01-27 08:42:26.378000 -08:00
   - :path: .gitignore
     :cursor_offset: 446
     :timestamp: 2012-01-27 08:50:53.321000 -08:00
@@ -29,28 +23,45 @@ cursor_positions:
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 216
     :timestamp: 2012-01-27 08:41:26.160000 -08:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 116
-    :timestamp: 2012-01-27 15:40:02.829000 -08:00
   - :path: app/views/pages/contact.html.erb
     :cursor_offset: 130
     :timestamp: 2012-01-25 22:03:58.097000 -08:00
   - :path: app/views/pages/about.html.erb
     :cursor_offset: 126
     :timestamp: 2012-01-25 22:03:55.281000 -08:00
-  - :path: spec/controllers/pages_controller_spec.rb
-    :cursor_offset: 21
-    :timestamp: 2012-01-27 21:32:57.817000 -08:00
-  - :path: app/views/pages/home.html.erb
-    :cursor_offset: 24
-    :timestamp: 2012-01-25 22:03:45.017000 -08:00
   - :path: app/views/layouts/_stylesheets.html.erb
     :cursor_offset: 315
     :timestamp: 2012-01-30 23:34:00.296000 -08:00
-  - :path: app/views/layouts/_header.html.erb
-    :cursor_offset: 268
-    :timestamp: 2012-01-30 23:37:20.618000 -08:00
+  - :path: spec/controllers/pages_controller_spec.rb
+    :cursor_offset: 204
+    :timestamp: 2012-02-01 11:19:23.890000 -08:00
+  - :path: app/views/pages/help.html.erb
+    :cursor_offset: 251
+    :timestamp: 2012-02-01 11:22:57.096000 -08:00
   - :path: app/assets/stylesheets/custom.css
-    :cursor_offset: 1156
-    :timestamp: 2012-01-30 23:30:53.322000 -08:00
+    :cursor_offset: 1233
+    :timestamp: 2012-01-30 23:43:06.105000 -08:00
+  - :path: app/views/pages/home.html.erb
+    :cursor_offset: 171
+    :timestamp: 2012-01-30 23:25:46.043000 -08:00
+    :selection_offset: 184
+    :block_selection_mode: false
+  - :path: app/controllers/pages_controller.rb
+    :cursor_offset: 204
+    :timestamp: 2012-02-01 11:20:29.726000 -08:00
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 280
+    :timestamp: 2012-02-01 11:44:02.533000 -08:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 127
+    :timestamp: 2012-01-30 23:41:14.593000 -08:00
+  - :path: spec/requests/layout_links_spec.rb
+    :cursor_offset: 507
+    :timestamp: 2012-02-01 11:41:40.568000 -08:00
+  - :path: config/routes.rb
+    :cursor_offset: 209
+    :timestamp: 2012-02-01 11:42:33.804000 -08:00
+  - :path: app/views/layouts/_footer.html.erb
+    :cursor_offset: 189
+    :timestamp: 2012-02-01 11:44:03.462000 -08:00
 files_to_retain: 0

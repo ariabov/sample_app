@@ -1,20 +1,45 @@
+<<<<<<< HEAD
 1328128214
+=======
+1328128124
+>>>>>>> filling-in-layout
 Application	C:/RoRApps/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/RoRApps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/RoRApps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 GET 'about'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'about'" do
 GET 'contact'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
+GET 'help'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'help'" do
 GET 'home'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
+<<<<<<< HEAD
+=======
+GET 'new'	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'new'" do
+>>>>>>> filling-in-layout
 LayoutLinks	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	describe "LayoutLinks" do
 PagesController	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	C:/RoRApps/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	C:/RoRApps/sample_app/config/application.rb	module SampleApp
+<<<<<<< HEAD
 about	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def about
 contact	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def contact
 home	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def home
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+=======
+UsersController	C:/RoRApps/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	C:/RoRApps/sample_app/app/helpers/users_helper.rb	module UsersHelper
+about	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def about
+contact	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def contact
+help	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def help
+home	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def home
+logo	C:/RoRApps/sample_app/app/helpers/application_helper.rb	  def logo
+new	C:/RoRApps/sample_app/app/controllers/users_controller.rb	  def new
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "returns http success" do
+>>>>>>> filling-in-layout
 should have a Contact page at '/contact'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Contact page at '/contact'" do
 should have a Help page at '/help	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Help page at '/help" do
 should have a Sign Up page at '/signup'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Sign Up page at '/signup'" do
@@ -22,7 +47,13 @@ should have a home page at '/'	C:/RoRApps/sample_app/spec/requests/layout_links_
 should have a non-blank body	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have a non-blank body" do
 should have an About page at '/about'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have an About page at '/about'" do
 should have the right links on the layout	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have the right links on the layout" do
+<<<<<<< HEAD
+=======
+should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+>>>>>>> filling-in-layout
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
 title	C:/RoRApps/sample_app/app/helpers/application_helper.rb	  def title
+users/new.html.erb	C:/RoRApps/sample_app/spec/views/users/new.html.erb_spec.rb	describe "users/new.html.erb" do

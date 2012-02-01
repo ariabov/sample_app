@@ -4,4 +4,8 @@ bounds:
   y: 0
   width: 683
   height: 738
+<<<<<<< HEAD
 tree_width: 256
+=======
+tree_width: 197
+>>>>>>> filling-in-layout

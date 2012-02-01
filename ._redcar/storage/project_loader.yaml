@@ -1,7 +1,12 @@
 --- 
 open_files: 
-  - app/views/pages/home.html.erb
-  - app/views/pages/about.html.erb
-  - app/views/pages/contact.html.erb
-  - app/controllers/pages_controller.rb
+  - app/assets/stylesheets/custom.css
+  - app/views/layouts/_footer.html.erb
   - app/views/layouts/application.html.erb
+  - app/views/layouts/_header.html.erb
+  - app/helpers/application_helper.rb
+  - spec/controllers/pages_controller_spec.rb
+  - spec/controllers/users_controller_spec.rb
+  - spec/requests/layout_links_spec.rb
+  - config/routes.rb
+  - app/views/pages/home.html.erb

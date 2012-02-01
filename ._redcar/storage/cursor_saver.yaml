@@ -64,4 +64,7 @@ cursor_positions:
   - :path: app/views/layouts/_footer.html.erb
     :cursor_offset: 189
     :timestamp: 2012-02-01 11:44:03.462000 -08:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 84
+    :timestamp: 2012-02-01 12:12:20.909000 -08:00
 files_to_retain: 0

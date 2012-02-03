@@ -1,4 +1,5 @@
-1328294049
+1328303099
+AddEmailUniquenessIndex	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 Application	C:/RoRApps/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/RoRApps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/RoRApps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -18,6 +19,7 @@ UsersHelper	C:/RoRApps/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def about
 change	C:/RoRApps/sample_app/db/migrate/20120203172729_create_users.rb	  def change
 contact	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def contact
+down	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	  def down
 help	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def help
 home	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def home
 logo	C:/RoRApps/sample_app/app/helpers/application_helper.rb	  def logo
@@ -27,6 +29,8 @@ returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spe
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+should accept valid email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should accept valid email addresses" do
+should create a new instance given a valid attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should create a new instance given a valid attribute" do
 should have a Contact page at '/contact'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Contact page at '/contact'" do
 should have a Help page at '/help	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Help page at '/help" do
 should have a Sign Up page at '/signup'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Sign Up page at '/signup'" do
@@ -39,5 +43,12 @@ should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_control
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should reject duplicate email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject duplicate email addresses" do
+should reject email addresses identical up to case	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject email addresses identical up to case" do
+should reject invalid email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject invalid email addresses" do
+should reject names that are too long	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject names that are too long" do
+should require a name	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should require a name" do
+should require an email	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should require an email" do
 title	C:/RoRApps/sample_app/app/helpers/application_helper.rb	  def title
+up	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	  def up
 users/new.html.erb	C:/RoRApps/sample_app/spec/views/users/new.html.erb_spec.rb	describe "users/new.html.erb" do

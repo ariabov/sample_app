@@ -6,4 +6,7 @@ cursor_positions:
   - :path: app/models/user.rb
     :cursor_offset: 0
     :timestamp: 2012-02-03 18:50:30.149000 -08:00
+  - :path: db/migrate/20120204030949_add_password_to_users.rb
+    :cursor_offset: 126
+    :timestamp: 2012-02-05 11:29:28.484000 -08:00
 files_to_retain: 0

@@ -1,4 +1,4 @@
-1328481806
+1328483094
 AddEmailUniquenessIndex	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/RoRApps/sample_app/db/migrate/20120204030949_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/RoRApps/sample_app/db/migrate/20120205204522_add_salt_to_users.rb	class AddSaltToUsers 
@@ -29,6 +29,7 @@ contact	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def contact
 down	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	  def down
 encrypt	C:/RoRApps/sample_app/app/models/user.rb	  def encrypt(string)
 encrypt_password	C:/RoRApps/sample_app/app/models/user.rb	  def encrypt_password
+gravatar_for	C:/RoRApps/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { :size => 50})
 has_password?	C:/RoRApps/sample_app/app/models/user.rb	  def has_password?(submitted_password)
 has_password? method?	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "has_password? method?" do
 help	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def help
@@ -59,6 +60,7 @@ should have a home page at '/'	C:/RoRApps/sample_app/spec/requests/layout_links_
 should have a non-blank body	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have a non-blank body" do
 should have a password attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have a password attribute" do
 should have a password confirmation	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have a password confirmation" do
+should have a profile image	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have a profile image" do
 should have a salt	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have a salt" do
 should have an About page at '/about'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have an About page at '/about'" do
 should have an encrypting password attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have an encrypting password attribute" do
@@ -68,6 +70,8 @@ should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_control
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
+should have the user's name	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the user's name" do
 should reject duplicate email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject duplicate email addresses" do
 should reject email addresses identical up to case	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject email addresses identical up to case" do
 should reject invalid email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject invalid email addresses" do

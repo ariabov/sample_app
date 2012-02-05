@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.0'
-
 gem 'sqlite3'
+gem 'gravatar_image_tag'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

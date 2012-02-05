@@ -3,9 +3,6 @@ cursor_positions:
   - :path: 
     :cursor_offset: 0
     :timestamp: 2012-02-04 16:41:02.702000 -08:00
-  - :path: app/models/user.rb
-    :cursor_offset: 0
-    :timestamp: 2012-02-03 18:50:30.149000 -08:00
   - :path: db/migrate/20120204030949_add_password_to_users.rb
     :cursor_offset: 126
     :timestamp: 2012-02-05 11:29:28.484000 -08:00
@@ -15,4 +12,16 @@ cursor_positions:
   - :path: Rakefile
     :cursor_offset: 368
     :timestamp: 2012-02-05 11:39:39.560000 -08:00
+  - :path: config/routes.rb
+    :cursor_offset: 229
+    :timestamp: 2012-02-05 14:23:02.915000 -08:00
+  - :path: app/models/user.rb
+    :cursor_offset: 743
+    :timestamp: 2012-02-05 13:16:46.780000 -08:00
+  - :path: Gemfile
+    :cursor_offset: 411
+    :timestamp: 2012-02-05 14:27:33.457000 -08:00
+  - :path: spec/factories.rb
+    :cursor_offset: 210
+    :timestamp: 2012-02-05 14:30:38.129000 -08:00
 files_to_retain: 0

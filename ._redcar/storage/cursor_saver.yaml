@@ -9,4 +9,10 @@ cursor_positions:
   - :path: db/migrate/20120204030949_add_password_to_users.rb
     :cursor_offset: 126
     :timestamp: 2012-02-05 11:29:28.484000 -08:00
+  - :path: spec/models/user_spec.rb
+    :cursor_offset: 4159
+    :timestamp: 2012-02-05 13:14:18.196000 -08:00
+  - :path: Rakefile
+    :cursor_offset: 368
+    :timestamp: 2012-02-05 11:39:39.560000 -08:00
 files_to_retain: 0

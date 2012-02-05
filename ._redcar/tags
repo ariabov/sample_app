@@ -1,4 +1,4 @@
-1328480477
+1328481806
 AddEmailUniquenessIndex	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/RoRApps/sample_app/db/migrate/20120204030949_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/RoRApps/sample_app/db/migrate/20120205204522_add_salt_to_users.rb	class AddSaltToUsers 
@@ -11,6 +11,7 @@ GET 'contact'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	de
 GET 'help'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'help'" do
 GET 'home'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
 GET 'new'	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'new'" do
+GET 'show'	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'show'" do
 LayoutLinks	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	describe "LayoutLinks" do
 PagesController	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	C:/RoRApps/sample_app/app/helpers/pages_helper.rb	module PagesHelper
@@ -39,16 +40,18 @@ password	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "password" do
 password	C:/RoRApps/sample_app/app/models/user.rb	  attr_accessor   :password
 password encription	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "password encription" do
 password validation	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "password validation" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "returns http success" do
-returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
-returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
-returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
-returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 secure_hash	C:/RoRApps/sample_app/app/models/user.rb	  def secure_hash(string)
 should accept valid email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should accept valid email addresses" do
+should be successful	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should be successful" do
 should create a new instance given a valid attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should create a new instance given a valid attribute" do
 should exist	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should exist" do
 should exist	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should exist" do
+should find the right user	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should find the right user" do
 should have a Contact page at '/contact'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Contact page at '/contact'" do
 should have a Help page at '/help	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Help page at '/help" do
 should have a Sign Up page at '/signup'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Sign Up page at '/signup'" do
@@ -60,11 +63,11 @@ should have a salt	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should hav
 should have an About page at '/about'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have an About page at '/about'" do
 should have an encrypting password attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have an encrypting password attribute" do
 should have the right links on the layout	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have the right links on the layout" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
-should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
-should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
-should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
-should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should reject duplicate email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject duplicate email addresses" do
 should reject email addresses identical up to case	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject email addresses identical up to case" do
 should reject invalid email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject invalid email addresses" do

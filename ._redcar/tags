@@ -1,4 +1,4 @@
-1328483094
+1328483902
 AddEmailUniquenessIndex	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/RoRApps/sample_app/db/migrate/20120204030949_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/RoRApps/sample_app/db/migrate/20120205204522_add_salt_to_users.rb	class AddSaltToUsers 
@@ -64,6 +64,7 @@ should have a profile image	C:/RoRApps/sample_app/spec/controllers/users_control
 should have a salt	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have a salt" do
 should have an About page at '/about'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have an About page at '/about'" do
 should have an encrypting password attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have an encrypting password attribute" do
+should have the right URL	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right URL" do
 should have the right links on the layout	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have the right links on the layout" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do

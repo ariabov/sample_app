@@ -1,40 +1,108 @@
+<<<<<<< HEAD
 1328484020
+=======
+1328483902
+AddEmailUniquenessIndex	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
+AddPasswordToUsers	C:/RoRApps/sample_app/db/migrate/20120204030949_add_password_to_users.rb	class AddPasswordToUsers 
+AddSaltToUsers	C:/RoRApps/sample_app/db/migrate/20120205204522_add_salt_to_users.rb	class AddSaltToUsers 
+>>>>>>> modeling-users
 Application	C:/RoRApps/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/RoRApps/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/RoRApps/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+CreateUsers	C:/RoRApps/sample_app/db/migrate/20120203172729_create_users.rb	class CreateUsers 
 GET 'about'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'about'" do
 GET 'contact'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
 GET 'help'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'help'" do
 GET 'home'	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
 GET 'new'	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'new'" do
+<<<<<<< HEAD
+=======
+GET 'show'	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'show'" do
+>>>>>>> modeling-users
 LayoutLinks	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	describe "LayoutLinks" do
 PagesController	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	C:/RoRApps/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	C:/RoRApps/sample_app/config/application.rb	module SampleApp
+<<<<<<< HEAD
+=======
+User	C:/RoRApps/sample_app/app/models/user.rb	class User 
+>>>>>>> modeling-users
 UsersController	C:/RoRApps/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	C:/RoRApps/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def about
+authenticate	C:/RoRApps/sample_app/app/models/user.rb	    def authenticate(email, submitted_password)
+authenticate method	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "authenticate method" do
+change	C:/RoRApps/sample_app/db/migrate/20120203172729_create_users.rb	  def change
+change	C:/RoRApps/sample_app/db/migrate/20120204030949_add_password_to_users.rb	  def change
+change	C:/RoRApps/sample_app/db/migrate/20120205204522_add_salt_to_users.rb	  def change
 contact	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def contact
+down	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	  def down
+encrypt	C:/RoRApps/sample_app/app/models/user.rb	  def encrypt(string)
+encrypt_password	C:/RoRApps/sample_app/app/models/user.rb	  def encrypt_password
+gravatar_for	C:/RoRApps/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { :size => 50})
+has_password?	C:/RoRApps/sample_app/app/models/user.rb	  def has_password?(submitted_password)
+has_password? method?	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "has_password? method?" do
 help	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def help
 home	C:/RoRApps/sample_app/app/controllers/pages_controller.rb	  def home
 logo	C:/RoRApps/sample_app/app/helpers/application_helper.rb	  def logo
+make_salt	C:/RoRApps/sample_app/app/models/user.rb	  def make_salt
 new	C:/RoRApps/sample_app/app/controllers/users_controller.rb	  def new
+password	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "password" do
+password	C:/RoRApps/sample_app/app/models/user.rb	  attr_accessor   :password
+password encription	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "password encription" do
+password validation	C:/RoRApps/sample_app/spec/models/user_spec.rb	describe "password validation" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "returns http success" do
+<<<<<<< HEAD
+=======
+secure_hash	C:/RoRApps/sample_app/app/models/user.rb	  def secure_hash(string)
+should accept valid email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should accept valid email addresses" do
+should be successful	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should be successful" do
+should create a new instance given a valid attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should create a new instance given a valid attribute" do
+should exist	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should exist" do
+should exist	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should exist" do
+should find the right user	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should find the right user" do
+>>>>>>> modeling-users
 should have a Contact page at '/contact'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Contact page at '/contact'" do
 should have a Help page at '/help	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Help page at '/help" do
 should have a Sign Up page at '/signup'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a Sign Up page at '/signup'" do
 should have a home page at '/'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have a home page at '/'" do
 should have a non-blank body	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have a non-blank body" do
+should have a password attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have a password attribute" do
+should have a password confirmation	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have a password confirmation" do
+should have a profile image	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have a profile image" do
+should have a salt	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have a salt" do
 should have an About page at '/about'	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have an About page at '/about'" do
+should have an encrypting password attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should have an encrypting password attribute" do
+should have the right URL	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right URL" do
 should have the right links on the layout	C:/RoRApps/sample_app/spec/requests/layout_links_spec.rb	it "should have the right links on the layout" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
+should have the user's name	C:/RoRApps/sample_app/spec/controllers/users_controller_spec.rb	it "should have the user's name" do
+should reject duplicate email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject duplicate email addresses" do
+should reject email addresses identical up to case	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject email addresses identical up to case" do
+should reject invalid email addresses	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject invalid email addresses" do
+should reject names that are too long	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should reject names that are too long" do
+should require a matching password confirmation	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should require a matching password confirmation" do
+should require a name	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should require a name" do
+should require a password	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should require a password" do
+should require an email	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should require an email" do
+should return false if the passwords don't match	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should return false if the passwords don't match" do
+should return nil for an email address with no user	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should return nil for an email address with no user" do
+should return nil on email/password mismatch	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should return nil on email/password mismatch" do
+should return the user on email/password match	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should return the user on email/password match" do
+should return true if the passwords match	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should return true if the passwords match" do
+should set the encrypted password attribute	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should set the encrypted password attribute" do
+should should reject lonng passwords	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should should reject lonng passwords" do
+should should reject short passwords	C:/RoRApps/sample_app/spec/models/user_spec.rb	it "should should reject short passwords" do
+show	C:/RoRApps/sample_app/app/controllers/users_controller.rb	  def show
 title	C:/RoRApps/sample_app/app/helpers/application_helper.rb	  def title
+up	C:/RoRApps/sample_app/db/migrate/20120203205653_add_email_uniqueness_index.rb	  def up
 users/new.html.erb	C:/RoRApps/sample_app/spec/views/users/new.html.erb_spec.rb	describe "users/new.html.erb" do
